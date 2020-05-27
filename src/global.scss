@@ -1,0 +1,27 @@
+:root { scroll-behavior: smooth; }
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body { margin: 0; padding: 0; }
+
+html { font-size: 10px; color: #1a1a1a; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.container {
+  width: calc(100% - 3.2rem);
+  max-width: 1200px;
+  margin: auto;
+}
