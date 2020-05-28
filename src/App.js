@@ -3,7 +3,7 @@ import Home from './routes/Home'
 import LanguageContextProvider from './contexts/LanguageContext'
 
 const App = () => (
-    <LanguageContextProvider defaultValue="pt">
+    <LanguageContextProvider defaultValue="">
         <Home />
     </LanguageContextProvider>
 )
